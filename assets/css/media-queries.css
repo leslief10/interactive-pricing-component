@@ -1,0 +1,95 @@
+@media only screen and (min-width: 600px) {
+  section {
+    background-size: auto auto;
+  }
+
+  .text-container {
+    min-width: 100%;
+  }
+  .text-container h1 {
+    margin-bottom: 0.9rem;
+    font-size: 2.7rem;
+  }
+  .text-container p {
+    padding: 0;
+    font-size: 1.5rem;
+  }
+
+  .pricing-component-container{
+    width: 54rem;
+    height: 39.7rem;
+  }
+
+  .slider-container {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5rem auto;
+    grid-template-areas: "pageview time-period"
+    "slider slider";
+    width: 54rem;
+    height: auto;
+    padding: 4.5rem 0 0;
+    margin-bottom: 5.4rem;
+  }
+
+  .pageviews {
+    grid-area: pageview;
+    margin-bottom: 0;
+    font-size: 1.3rem;
+    font-weight: 800;
+  }
+
+  input[type="range"] {
+    grid-area: slider;
+    justify-self: center;
+    align-self: flex-start;
+    width: 44.4rem;
+    margin-top: 4rem;
+    margin-bottom: 0;
+  }
+
+  .time-period {
+    grid-area: time-period;
+    justify-self: center;
+    font-size: 1.5rem;
+  }
+
+  .price {
+    font-size: 3.9rem;
+  }
+
+  .toggle-container {
+    width: 54rem;
+    height: auto;
+    padding: 0 6.6rem 4rem 14rem;;
+  }
+
+  .switch {
+    margin-inline: 1.6rem;
+  }
+
+  .discount {
+    width: 8rem;
+    margin-left: 1rem;
+  }
+
+  .benefits-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: 54rem;
+    height: auto;
+    padding-top: 3.2rem;
+  }
+
+  .benefits-container ul {
+    gap: 1rem;
+    margin-bottom: 0;
+  }
+
+  .benefits-container ul li {
+    text-align: left;
+  }
+}
