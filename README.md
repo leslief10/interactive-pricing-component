@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Interactive pricing component]()
+- Live Site URL: [Interactive pricing component](https://leslief10.github.io/interactive-pricing-component/)
 
 ## My process
 
