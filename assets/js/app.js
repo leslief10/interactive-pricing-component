@@ -84,3 +84,4 @@ function sliderInfo(e) {
 /*Listeners*/
 slider.addEventListener('input', sliderInfo);
 slider.addEventListener('click', sliderInfo);
+slider.addEventListener('touchstart', sliderInfo);
